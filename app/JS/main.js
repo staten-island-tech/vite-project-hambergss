@@ -1,12 +1,12 @@
-import '../css/style.css'; //to leave and enter the folder
-import { genshinCharacters } from './genshin';
+import "../css/style.css"; //to leave and enter the folder
+import { genshinCharacters } from "./genshin";
 
 console.log(genshinCharacters);
 
-const card = document.getElementById("characters-list");
+const charactersListContainer = document.getElementById("characters-list");
 
-genshinCharacters.forEach((character)) => {
-    const genshinHTML = `
+genshinCharacters.forEach((character) => {
+  const genshinHTML = `
         <div class="character-item">
         <h2>${character.name}</h2>
         <p>Star: ${character.star}</p>
@@ -18,5 +18,5 @@ genshinCharacters.forEach((character)) => {
         <p>Image: ${character.image}</p>
         </div>
     `;
-    charactersListContainer.insertAdjacentHTML("beforeend", genshinHTML);
-}
+  charactersListContainer.insertAdjacentHTML("beforeend", genshinHTML);
+});
