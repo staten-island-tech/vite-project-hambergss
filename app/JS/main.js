@@ -3,10 +3,11 @@ import { genshinCharacters } from "./genshin";
 
 console.log(genshinCharacters);
 
-const charactersListContainer = document.getElementById("characters-list");
+const container = document.querySelector("characters-list");
 
-genshinCharacters.forEach((character) => {
-  const genshinHTML = `
+function createCards(character) {
+  genshinCharacters.forEach((character) => {
+    const genshinHTML = `
         <div class="character-item">
         <h2>${character.name}</h2>
         <p>Star: ${character.star}</p>
@@ -15,8 +16,10 @@ genshinCharacters.forEach((character) => {
         <p>Weapon: ${character.weapon}</p>
         <p>Type: ${character.type}</p>
         <p>Tier: ${character.tier}</p>
-        <p>Image: ${character.image}</p>
         </div>
     `;
-  charactersListContainer.insertAdjacentHTML("beforeend", genshinHTML);
-});
+    container.insertAdjacentHTML("beforeend", genshinHTML);
+  });
+}
+
+createCards(genshinCharacters);
