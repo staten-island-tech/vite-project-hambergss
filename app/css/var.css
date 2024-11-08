@@ -1,18 +1,14 @@
-body {
-  background-color: aliceblue;
-}
-
 :root {
-  --black: #000;
-  --light-blue: #2998ff;
-  --dark-blue: #135cc5;
-  --light-red: #f87171;
+  --black: #1e2124;
+  --light-orange: #ffd899;
+  --alice-blue: #f0f8ff;
+  --light-blue: #ddfbfd;
   --dark-red: #dc2626;
   --gray: #252c30;
 
   /*Intentions */
-  --primary: var(--light-blue);
-  --secondary: var(--dark-blue);
+  --primary: var(--alice-blue);
+  --secondary: var(--gray);
 
   /*Typography */
   --h1: 7.594rem;
@@ -22,14 +18,14 @@ body {
   --h5: 1.5rem;
 }
 
-.warm {
-  --primary: var(--light-red);
-  --secondary: var(--dark-red);
+.light {
+  --primary: var(--alice-blue);
+  --secondary: var(--gray);
 }
 
-.cool {
-  --primary: var(--light-blue);
-  --secondary: var(--dark-blue);
+.dark {
+  --primary: var(--black);
+  --secondary: var(--light-blue);
 }
 
 .card {

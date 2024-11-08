@@ -7,3 +7,24 @@
   margin-top: 60px;
 }
 
+#characters-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.character-item {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.character-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}

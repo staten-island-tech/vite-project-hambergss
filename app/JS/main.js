@@ -3,13 +3,14 @@ import { genshinCharacters } from "./genshin";
 
 console.log(genshinCharacters);
 
-const container = document.querySelector("characters-list");
+const container = document.getElementById("characters-list");
 
-function createCards(character) {
+function createCards() {
   genshinCharacters.forEach((character) => {
     const genshinHTML = `
         <div class="character-item">
         <h2>${character.name}</h2>
+        <img src="${character.image}" alt="${character.altText}" class="character-image" />
         <p>Star: ${character.star}</p>
         <p>Banner: ${character.banner}</p>
         <p>Element: ${character.element}</p>
@@ -22,4 +23,4 @@ function createCards(character) {
   });
 }
 
-createCards(genshinCharacters);
+createCards();
