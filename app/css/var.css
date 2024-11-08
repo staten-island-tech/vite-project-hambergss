@@ -1,14 +1,9 @@
 :root {
-  --black: #1e2124;
-  --light-orange: #ffd899;
-  --alice-blue: #f0f8ff;
-  --light-blue: #ddfbfd;
-  --dark-red: #dc2626;
-  --gray: #252c30;
+  --black: #282928;
+  --white: #f3f2f0;
+  --light-gray: #dae0e0;
+  --gray: #222327;
 
-  /*Intentions */
-  --primary: var(--alice-blue);
-  --secondary: var(--gray);
 
   /*Typography */
   --h1: 7.594rem;
@@ -19,21 +14,30 @@
 }
 
 .light {
-  --primary: var(--alice-blue);
+  --primary: var(--white);
   --secondary: var(--gray);
+  --text-color: var(--gray);
+  --accent-color: var(--light-gray);
 }
 
 .dark {
   --primary: var(--black);
-  --secondary: var(--light-blue);
+  --secondary: var(--light-gray);
+  --text-color: var(--light-gray);
+  --accent-color: var(--gray);
 }
 
-.card {
-  background-color: var(--primary);
+.character-item { 
+  background-color: var(--accent-color);
 }
 .main {
-  background-color: var(--secondary);
+  background-color: var(--accent-color);
   height: 90vh;
+}
+
+
+body {
+  background-color: var(--primary);
 }
 
 h1 {
@@ -60,7 +64,9 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+p {
   text-align: center;
+  color: var(--secondary);
 }
 
