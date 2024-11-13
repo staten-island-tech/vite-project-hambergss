@@ -1,20 +1,15 @@
-import "../css/style.css"; //to leave and enter the folder
-import { genshinCharacters } from "./genshin";
-import { themeBtn } from "./theme";
 // main.js
+import "../css/style.css";
+import { genshinCharacters } from "./genshin";
 import { initializeFilter } from './filter.js';
 
-console.log(genshinCharacters);
-console.log(themeBtn);
-// Initialize the dropdown filter
-initializeFilter();
-
-const container = document.getElementById("characters-list");
+// Get the container where character cards will be inserted
+const container = document.querySelector("#characters-list");
 
 function createCards() {
   genshinCharacters.forEach((character) => {
     const genshinHTML = `
-        <div class="character-item">
+      <div class="character-item" data-name="${character.name}" data-element="${character.element}">
         <h2>${character.name}</h2>
         <img src="${character.image}" alt="${character.altText}" class="character-image" />
         <p>Star: ${character.star}</p>
@@ -23,10 +18,16 @@ function createCards() {
         <p>Weapon: ${character.weapon}</p>
         <p>Type: ${character.type}</p>
         <p>Tier: ${character.tier}</p>
-        </div>
+      </div>
     `;
     container.insertAdjacentHTML("beforeend", genshinHTML);
   });
 }
 
+// Create cards first before initializing the filter
 createCards();
+
+// Wait until the DOM is loaded and then initialize the filter functionality
+document.addEventListener("DOMContentLoaded", function() {
+  initializeFilter(); // Initialize the filter after the cards are created
+});

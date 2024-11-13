@@ -29,7 +29,7 @@
   padding: 1.5rem 4rem;
   display: inline-block;
   margin: 1rem auto;
-  font-size: 2rem;
+  font-size: var(--p);
   border-radius: 7rem;
   background-color: var(--secondary);
   color: var(--primary);
@@ -42,12 +42,18 @@
   transform: scale(1.05);
 }
 
+#characters-list {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+  justify-content: space-between; /* Evenly spaces the cards */
+}
+
 /* Character Item Hover */
 .character-item {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  width: 35rem;
-  height: 45rem;
+  width: 30rem;
+  height: 40rem;
   margin: 1rem;
   padding: 2rem;
   border: 1px solid #ccc;
