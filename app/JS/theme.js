@@ -1,5 +1,5 @@
 
-document.querySelector(".btn").addEventListener("click", function () {
+const themeBtn = document.querySelector(".btn").addEventListener("click", function () {
     if (document.body.classList.contains("light")) {
         document.body.classList.add("dark");
         document.body.classList.remove("light")
@@ -9,4 +9,4 @@ document.querySelector(".btn").addEventListener("click", function () {
     }
 });
 
-export 
+export { themeBtn };

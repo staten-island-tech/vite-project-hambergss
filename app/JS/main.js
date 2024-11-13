@@ -1,7 +1,13 @@
 import "../css/style.css"; //to leave and enter the folder
 import { genshinCharacters } from "./genshin";
+import { themeBtn } from "./theme";
+// main.js
+import { initializeFilter } from './filter.js';
 
 console.log(genshinCharacters);
+console.log(themeBtn);
+// Initialize the dropdown filter
+initializeFilter();
 
 const container = document.getElementById("characters-list");
 

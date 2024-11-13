@@ -1,33 +1,51 @@
-@import url(var.css);
+@import url('var.css');
 
-body,
-html,
-* {
+/* Dropdown Menu Styling */
+.filter {
+  margin: 1.5rem auto;
   text-align: center;
-  font-size: 10px;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.filter label {
+  font-size: var(--h4);
+  color: var(--secondary);
+  margin-right: 1rem;
 }
 
-#characters-list {
-  width: 85vw;
-  margin: 2rem auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+#category-filter {
+  padding: var(--dropdown-padding);
+  font-size: var(--dropdown-font-size);
+  color: var(--text-color);
+  background-color: var(--dropdown-background);
+  border: 1px solid var(--dropdown-border);
+  border-radius: 5px;
+  outline: none;
 }
 
+/* Button Hover Animation */
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  margin: 1rem auto;
+  font-size: 2rem;
+  border-radius: 7rem;
+  background-color: var(--secondary);
+  color: var(--primary);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  transform: scale(1.05);
+}
+
+/* Character Item Hover */
 .character-item {
-  font-family: 'Poppins', sans-serif; /* Use Poppins font */
-  font-weight: 400; /* Set normal weight */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   width: 35rem;
   height: 45rem;
   margin: 1rem;
@@ -39,15 +57,49 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: var(--accent-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.character-item img {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
+.character-item:hover {
+  transform: scale(1.02);
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
 }
 
-.main { 
-  height: 20rem;
+/* Title Fade-in Animation */
+.title {
+  font-size: var(--h1);
+  color: var(--secondary);
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+  margin-top: 2rem;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Smooth Underline Hover Effect for Links */
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  position: relative;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: var(--secondary);
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+a:hover::after {
   width: 100%;
+  left: 0;
 }

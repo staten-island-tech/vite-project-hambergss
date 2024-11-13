@@ -10,14 +10,21 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body class="light">
     <h1 class="title">Genshin Characters</h1>
+
     <div class="main">
       <button class="btn">Click Me</button>
     </div>
-    <div id="app"></div>
-    <div id="characters-list"></div>
+
+    <div id="characters-list">
+      <div class="character-item" data-category="Liyue">Beidou</div>
+      <div class="character-item" data-category="Mondstadt">Diona</div>
+      <div class="character-item" data-category="Sumeru">Alhaitham</div>
+    </div>
+
     <script type="module" src="JS/main.js"></script>
   </body>
 </html>
