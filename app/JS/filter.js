@@ -1,10 +1,18 @@
 // filter.js
+import "../css/style.css";
 import { genshinCharacters } from "./genshin";
 
-const DOMSelectors = {
-  filterButtons: document.querySelectorAll(".filter-btn"), // All filter buttons
-  characterItems: document.querySelectorAll(".character-item"), // All character items
-};
+document.addEventListener("DOMContentLoaded", function() {
+  const DOMSelectors = {
+    starSorter: document.querySelector("astarsorter"),
+    bannerSorter: document.querySelector("abannersorter"),
+    elementSorter: document.querySelector("aelementsorter"),
+    weaponSorter: document.querySelector("aweaponsorter"),
+    tierSorter: document.querySelector("atiersorter"),
+    
+  };
+})
+
 
 export { DOMSelectors };
 
