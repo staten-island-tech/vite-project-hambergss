@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Genshin Characters</title>
 
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
@@ -17,17 +17,21 @@
 
     <div class="main">
       <button class="btn">Click Me</button>
-      <button class="filter-btn" data-element="Pyro">Pyro</button>
-      <button class="filter-btn" data-element="Hydro">Hydro</button>
-      <button class="filter-btn" data-element="Electro">Electro</button>
-      <button class="filter-btn" data-element="Anemo">Anemo</button>
-      <button class="filter-btn" data-element="Geo">Geo</button>
-      <button class="filter-btn" data-element="Dendro">Dendro</button>
-      <button class="filter-btn" data-element="all">All</button>
     </div>
-    <div id="characters-list"></div>
+    <!-- Characters List -->
+    <div id="characters-list">
+      <button id="alllist" type="click">All</button>
+      <button id="pyrosorter" type="click">Pyro</button>
+      <button id="hydrosorter" type="click">Hydro</button>
+      <button id="cryosorter" type="click">Cryo</button>
+      <button id="electrosorter" type="click">Electro</button>
+      <button id="anemosorter" type="click">Anemo</button>
+      <button id="dendrosorter" type="click">Dendro</button>
+      <button id="geosorter" type="click">Geo</button>
+    </div>
 
+    <!-- Scripts -->
     <script type="module" src="JS/main.js"></script>
-    <script type="module" src="JS/theme.js"></script>z
+    <script type="module" src="JS/theme.js"></script>
   </body>
 </html>

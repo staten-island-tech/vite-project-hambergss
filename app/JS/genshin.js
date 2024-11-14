@@ -6,9 +6,9 @@ const genshinCharacters = [
     banner: "Limited",
     element: "Geo",
     weapon: "Sword",
-    type: "DPS/Sub-DPS",
+    type: "Sub-DPS",
     tier: "A",
-    image: "https://example.com/albedo.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Albedo.png",
     altText: "Albedo, the Chief Alchemist of the Knights of Favonius",
   },
   {
@@ -19,7 +19,7 @@ const genshinCharacters = [
     weapon: "Bow",
     type: "DPS/Sub-DPS",
     tier: "C",
-    image: "https://example.com/amber.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Amber.png",
     altText: "Amber, the Outrider of Mondstadt",
   },
   {
@@ -30,7 +30,7 @@ const genshinCharacters = [
     weapon: "Catalyst",
     type: "Healer",
     tier: "B",
-    image: "https://example.com/barbara.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Barbara.png",
     altText: "Barbara, the Deaconess of the Church of Favonius",
   },
   {
@@ -41,7 +41,7 @@ const genshinCharacters = [
     weapon: "Sword",
     type: "Support/DPS",
     tier: "S",
-    image: "https://example.com/bennett.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Bennett.png",
     altText: "Bennett, the Adventurer from Mondstadt",
   },
   {
@@ -52,7 +52,7 @@ const genshinCharacters = [
     weapon: "Claymore",
     type: "DPS",
     tier: "A",
-    image: "https://example.com/diluc.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Diluc.png",
     altText: "Diluc, the owner of Dawn Winery",
   },
   {
@@ -63,7 +63,7 @@ const genshinCharacters = [
     weapon: "Bow",
     type: "Support/Healer",
     tier: "A",
-    image: "https://example.com/diona.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Diona.png",
     altText: "Diona, the bartender of the Cat's Tail",
   },
   {
@@ -74,7 +74,7 @@ const genshinCharacters = [
     weapon: "Claymore",
     type: "DPS",
     tier: "A",
-    image: "https://example.com/eula.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Eula.png",
     altText: "Eula, the Spindrift Knight",
   },
   {
@@ -85,7 +85,7 @@ const genshinCharacters = [
     weapon: "Bow",
     type: "Sub-DPS/Support",
     tier: "A",
-    image: "https://example.com/fischl.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Fischl.png",
     altText: "Fischl, the Prinzessin der Verurteilung",
   },
   {
@@ -96,7 +96,7 @@ const genshinCharacters = [
     weapon: "Sword",
     type: "Support/Healer",
     tier: "A",
-    image: "https://example.com/jean.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Jean.png",
     altText: "Jean, the Acting Grand Master of the Knights of Favonius",
   },
   {
@@ -107,7 +107,7 @@ const genshinCharacters = [
     weapon: "Sword",
     type: "Sub-DPS/Support",
     tier: "B",
-    image: "https://example.com/kaeya.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Kaeya.png",
     altText: "Kaeya, the Cavalry Captain",
   },
   {
@@ -118,7 +118,7 @@ const genshinCharacters = [
     weapon: "Catalyst",
     type: "DPS",
     tier: "A",
-    image: "https://example.com/klee.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Klee.png",
     altText: "Klee, the Spark Knight",
   },
   {
@@ -129,7 +129,7 @@ const genshinCharacters = [
     weapon: "Catalyst",
     type: "Support/Sub-DPS",
     tier: "C",
-    image: "https://example.com/lisa.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Lisa.png",
     altText: "Lisa, the Librarian of the Knights of Favonius",
   },
   {
@@ -140,7 +140,7 @@ const genshinCharacters = [
     weapon: "Polearm",
     type: "Support",
     tier: "B",
-    image: "https://example.com/mika.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Mika.png",
     altText: "Mika, the surveyor of the Knights of Favonius",
   },
   {
@@ -151,7 +151,7 @@ const genshinCharacters = [
     weapon: "Claymore",
     type: "DPS/Support",
     tier: "B",
-    image: "https://example.com/noelle.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Noelle.png",
     altText: "Noelle, the Maid Knight",
   },
   {
@@ -162,7 +162,7 @@ const genshinCharacters = [
     weapon: "Claymore",
     type: "DPS",
     tier: "C",
-    image: "https://example.com/razor.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Razor.png",
     altText: "Razor, the wild boy of Mondstadt",
   },
   {
@@ -173,7 +173,7 @@ const genshinCharacters = [
     weapon: "Polearm",
     type: "Sub-DPS/Support",
     tier: "B",
-    image: "https://example.com/rosaria.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Rosaria.png",
     altText: "Rosaria, the Sister of Mondstadt",
   },
   {
@@ -184,7 +184,7 @@ const genshinCharacters = [
     weapon: "Catalyst",
     type: "Support",
     tier: "B",
-    image: "https://example.com/sucrose.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Sucrose.png",
     altText: "Sucrose, the assistant alchemist",
   },
   {
@@ -195,7 +195,7 @@ const genshinCharacters = [
     weapon: "Bow",
     type: "Support/Sub-DPS",
     tier: "A",
-    image: "https://example.com/venti.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Venti.png",
     altText: "Venti, the Anemo Archon of Mondstadt",
   },
   // Liyue
@@ -207,7 +207,7 @@ const genshinCharacters = [
     weapon: "Claymore",
     type: "DPS/Sub-DPS",
     tier: "B",
-    image: "https://example.com/beidou.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Beidou.png",
     altText: "Beidou, the captain of The Crux",
   },
   {
@@ -218,7 +218,7 @@ const genshinCharacters = [
     weapon: "Claymore",
     type: "DPS/Sub-DPS",
     tier: "B",
-    image: "https://example.com/chongyun.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Chongyun.png",
     altText: "Chongyun, the exorcist from Liyue",
   },
   {
@@ -229,7 +229,7 @@ const genshinCharacters = [
     weapon: "Bow",
     type: "DPS",
     tier: "S",
-    image: "https://example.com/ganyu.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Ganyu.png",
     altText: "Ganyu, the half-qilin Adeptus",
   },
   {
@@ -240,7 +240,7 @@ const genshinCharacters = [
     weapon: "Polearm",
     type: "DPS",
     tier: "S",
-    image: "https://example.com/hutao.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Hu%20Tao.png",
     altText: "Hu Tao, the 77th Director of the Wangsheng Funeral Parlor",
   },
   {
@@ -251,7 +251,7 @@ const genshinCharacters = [
     weapon: "Sword",
     type: "DPS",
     tier: "A",
-    image: "https://example.com/keqing.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Keqing.png",
     altText: "Keqing, the Yuheng of the Liyue Qixing",
   },
   {
@@ -262,7 +262,7 @@ const genshinCharacters = [
     weapon: "Catalyst",
     type: "DPS/Support",
     tier: "A",
-    image: "https://example.com/ningguang.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Ningguang.png",
     altText: "Ningguang, the Tianquan of the Liyue Qixing",
   },
   {
@@ -273,7 +273,7 @@ const genshinCharacters = [
     weapon: "Sword",
     type: "Healer",
     tier: "B",
-    image: "https://example.com/qiqi.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Qiqi.png",
     altText: "Qiqi, the zombie herbalist",
   },
   {
@@ -284,7 +284,7 @@ const genshinCharacters = [
     weapon: "Polearm",
     type: "Sub-DPS/Support",
     tier: "A",
-    image: "https://example.com/shenhe.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Shenhe.png",
     altText: "Shenhe, the disciple of Cloud Retainer",
   },
   {
@@ -295,7 +295,7 @@ const genshinCharacters = [
     weapon: "Polearm",
     type: "DPS/Sub-DPS",
     tier: "A",
-    image: "https://example.com/xiangling.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Xiangling.png",
     altText: "Xiangling, the Head Chef at Wanmin Restaurant",
   },
   {
@@ -306,7 +306,7 @@ const genshinCharacters = [
     weapon: "Polearm",
     type: "DPS",
     tier: "A",
-    image: "https://example.com/xiao.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Xiao.png",
     altText: "Xiao, the vigilant Yaksha",
   },
   {
@@ -317,7 +317,7 @@ const genshinCharacters = [
     weapon: "Sword",
     type: "Sub-DPS/Support",
     tier: "A",
-    image: "https://example.com/xingqiu.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Xingqiu.png",
     altText: "Xingqiu, the Guhua enthusiast",
   },
   {
@@ -328,7 +328,7 @@ const genshinCharacters = [
     weapon: "Claymore",
     type: "DPS",
     tier: "C",
-    image: "https://example.com/xinyan.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Xinyan.png",
     altText: "Xinyan, the rock 'n' roll musician",
   },
   {
@@ -339,7 +339,7 @@ const genshinCharacters = [
     weapon: "Catalyst",
     type: "DPS",
     tier: "B",
-    image: "https://example.com/yanfei.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Yanfei.png",
     altText: "Yanfei, the legal advisor in Liyue",
   },
   {
@@ -350,7 +350,7 @@ const genshinCharacters = [
     weapon: "Polearm",
     type: "Healer/Support",
     tier: "B",
-    image: "https://example.com/yaoyao.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Yaoyao.png",
     altText: "Yaoyao, the young assistant of Ganyu",
   },
   {
@@ -361,7 +361,7 @@ const genshinCharacters = [
     weapon: "Bow",
     type: "DPS/Sub-DPS",
     tier: "A",
-    image: "https://example.com/yelan.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Yelan.png",
     altText: "Yelan, the mysterious intelligence officer",
   },
   {
@@ -372,7 +372,7 @@ const genshinCharacters = [
     weapon: "Polearm",
     type: "Support/DPS",
     tier: "S",
-    image: "https://example.com/zhongli.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Zhongli.png",
     altText: "Zhongli, the Geo Archon of Liyue",
   },
   // Inazuma 
@@ -384,7 +384,7 @@ const genshinCharacters = [
     weapon: "Claymore",
     type: "DPS",
     tier: "A",
-    image: "https://example.com/arataki_itto.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Itto.png",
     altText: "Arataki Itto, the Oni leader of the Arataki Gang",
   },
   {
@@ -395,7 +395,7 @@ const genshinCharacters = [
     weapon: "Bow",
     type: "Support",
     tier: "B",
-    image: "https://example.com/gorou.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Gorou.png",
     altText: "Gorou, the general of the resistance forces in Inazuma",
   },
   {
@@ -406,7 +406,7 @@ const genshinCharacters = [
     weapon: "Sword",
     type: "DPS",
     tier: "A",
-    image: "https://example.com/kamisato_ayaka.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Ayaka.png",
     altText: "Kamisato Ayaka, the elegant and graceful noblewoman of Inazuma",
   },
   {
@@ -417,7 +417,7 @@ const genshinCharacters = [
     weapon: "Sword",
     type: "Support",
     tier: "A",
-    image: "https://example.com/kamisato_ayato.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Ayato.png",
     altText: "Kamisato Ayato, the head of the Kamisato Clan and Yae Miko's older brother",
   },
   {
@@ -428,7 +428,7 @@ const genshinCharacters = [
     weapon: "Bow",
     type: "Support",
     tier: "B",
-    image: "https://example.com/kujousara.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Sara.png",
     altText: "Kujou Sara, the General of the Tenryou Commission",
   },
   {
@@ -439,7 +439,7 @@ const genshinCharacters = [
     weapon: "Sword",
     type: "Support",
     tier: "B",
-    image: "https://example.com/kukishinobu.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Kuki%20Shinobu.png",
     altText: "Kuki Shinobu, the Yashiro Commission's trusty secretary",
   },
   {
@@ -450,7 +450,7 @@ const genshinCharacters = [
     weapon: "Polearm",
     type: "DPS/Sub-DPS/Support",
     tier: "S",
-    image: "https://example.com/raiden_shogun.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Raiden.png",
     altText: "Raiden Shogun, the Electro Archon of Inazuma",
   },
   {
@@ -461,7 +461,7 @@ const genshinCharacters = [
     weapon: "Catalyst",
     type: "Healer/Support",
     tier: "A",
-    image: "https://example.com/sangonomiya_kokomi.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Kokomi.png",
     altText: "Sangonomiya Kokomi, the Divine Priestess of Watatsumi Island",
   },
   {
@@ -472,7 +472,7 @@ const genshinCharacters = [
     weapon: "Claymore",
     type: "Sub-DPS",
     tier: "B",
-    image: "https://example.com/sayu.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Sayu.png",
     altText: "Sayu, the carefree ninja of Inazuma",
   },
   {
@@ -483,7 +483,7 @@ const genshinCharacters = [
     weapon: "Catalyst",
     type: "Support/Sub-DPS",
     tier: "A",
-    image: "https://example.com/shikanoin_heizou.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Heizou.png",
     altText: "Shikanoin Heizou, the detective of Inazuma",
   },
   {
@@ -494,7 +494,7 @@ const genshinCharacters = [
     weapon: "Polearm",
     type: "Support",
     tier: "B",
-    image: "https://example.com/thoma.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Thoma.png",
     altText: "Thoma, the steadfast housekeeper of the Kamisato Clan",
   },
   {
@@ -505,7 +505,7 @@ const genshinCharacters = [
     weapon: "Catalyst",
     type: "DPS/Sub-DPS",
     tier: "A",
-    image: "https://example.com/yae_miko.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Yae%20Miko.png",
     altText: "Yae Miko, the Guuji of the Grand Narukami Shrine",
   },
   {
@@ -516,7 +516,7 @@ const genshinCharacters = [
     weapon: "Bow",
     type: "DPS",
     tier: "A",
-    image: "https://example.com/yoimiya.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Yoimiya.png",
     altText: "Yoimiya, the Queen of the Summer Festival",
   },
   // Sumeru
@@ -528,7 +528,7 @@ const genshinCharacters = [
     weapon: "Sword",
     type: "DPS",
     tier: "S",
-    image: "https://example.com/alhaitham.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Alhaitham.png",
     altText: "Alhaitham, the Scribe of the Akademiya"
   },
   {
@@ -539,7 +539,7 @@ const genshinCharacters = [
     weapon: "Polearm",
     type: "Support",
     tier: "B",
-    image: "https://example.com/candace.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Candace.png",
     altText: "Candace, the Protector of the Oasis"
   },
   {
@@ -550,7 +550,7 @@ const genshinCharacters = [
     weapon: "Bow",
     type: "Support",
     tier: "A",
-    image: "https://example.com/collei.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Collei.png",
     altText: "Collei, the Outcast of the Forest"
   },
   {
@@ -561,7 +561,7 @@ const genshinCharacters = [
     weapon: "Polearm",
     type: "DPS",
     tier: "A",
-    image: "https://example.com/cyno.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Cyno.png",
     altText: "Cyno, the General Mahamatra"
   },
   {
@@ -572,7 +572,7 @@ const genshinCharacters = [
     weapon: "Claymore",
     type: "DPS",
     tier: "S",
-    image: "https://example.com/dehya.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Dehya.png",
     altText: "Dehya, the Flame-Mane of the Desert"
   },
   {
@@ -583,7 +583,7 @@ const genshinCharacters = [
     weapon: "Bow",
     type: "Support",
     tier: "B",
-    image: "https://example.com/faruzan.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Faruzan.png",
     altText: "Faruzan, the Scholar of the Desert"
   },
   {
@@ -594,7 +594,7 @@ const genshinCharacters = [
     weapon: "Sword",
     type: "Support",
     tier: "A",
-    image: "https://example.com/kaveh.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Kaveh.png",
     altText: "Kaveh, the Architect"
   },
   {
@@ -605,7 +605,7 @@ const genshinCharacters = [
     weapon: "Sword",
     type: "Support",
     tier: "B",
-    image: "https://example.com/layla.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Layla.png",
     altText: "Layla, the Guardian of the Night"
   },
   {
@@ -616,7 +616,7 @@ const genshinCharacters = [
     weapon: "Catalyst",
     type: "Support",
     tier: "S",
-    image: "https://example.com/nahida.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Nahida.png",
     altText: "Nahida, the Dendro Archon"
   },
   {
@@ -627,7 +627,7 @@ const genshinCharacters = [
     weapon: "Bow",
     type: "DPS",
     tier: "S",
-    image: "https://example.com/tighnari.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Tighnari.png",
     altText: "Tighnari, the Forest Watcher"
   },
   {
@@ -638,7 +638,7 @@ const genshinCharacters = [
     weapon: "Catalyst",
     type: "Support",
     tier: "A",
-    image: "https://example.com/sethos.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Sethos.png",
     altText: "Sethos, the Seer of the Sands"
   },
   // Fontaine
@@ -650,7 +650,7 @@ const genshinCharacters = [
     weapon: "Sword",
     type: "Support",
     tier: "B",
-    image: "https://example.com/lynette.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Lynette.png",
     altText: "Lynette, the Swift Messenger"
   },
   {
@@ -661,7 +661,7 @@ const genshinCharacters = [
     weapon: "Bow",
     type: "DPS",
     tier: "S",
-    image: "https://example.com/lyney.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Lyney.png",
     altText: "Lyney, the Great Illusionist"
   },
   {
@@ -672,7 +672,7 @@ const genshinCharacters = [
     weapon: "Claymore",
     type: "Support",
     tier: "A",
-    image: "https://example.com/navia.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Lyney.png",
     altText: "Navia, the Lady of the Eternal Court"
   },
   {
@@ -683,7 +683,7 @@ const genshinCharacters = [
     weapon: "Claymore",
     type: "DPS",
     tier: "B",
-    image: "https://example.com/freminet.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Freminet.png",
     altText: "Freminet, the Young Excavator"
   },
   {
@@ -694,7 +694,7 @@ const genshinCharacters = [
     weapon: "Sword",
     type: "DPS",
     tier: "S",
-    image: "https://example.com/furina.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Furina.png",
     altText: "Furina, the Sovereign of Justice"
   },
   {
@@ -705,7 +705,7 @@ const genshinCharacters = [
     weapon: "Catalyst",
     type: "DPS",
     tier: "A",
-    image: "https://example.com/wriothesley.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Wriothesley.png",
     altText: "Wriothesley, the Silent Arbitrator"
   },
   {
@@ -716,7 +716,7 @@ const genshinCharacters = [
     weapon: "Polearm",
     type: "Support",
     tier: "B",
-    image: "https://example.com/chevreuse.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Chevreuse.png",
     altText: "Chevreuse, the Loyal Companion"
   },
   // Natlan 
@@ -728,7 +728,7 @@ const genshinCharacters = [
     weapon: "Bow",
     type: "DPS",
     tier: "S",
-    image: "https://example.com/mualani.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Mualani.png",
     altText: "Mualani, the Flame of Natlan"
   },
   {
@@ -739,7 +739,7 @@ const genshinCharacters = [
     weapon: "Claymore",
     type: "DPS",
     tier: "A",
-    image: "https://example.com/kinich.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Kinich.png",
     altText: "Kinich, the God of the Sun"
   },
   {
@@ -750,7 +750,7 @@ const genshinCharacters = [
     weapon: "Sword",
     type: "Support",
     tier: "S",
-    image: "https://example.com/xilonen.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Xilonen.png",
     altText: "Xilonen, the Goddess of the Earth"
   },
   {
@@ -761,7 +761,7 @@ const genshinCharacters = [
     weapon: "Bow",
     type: "Support",
     tier: "B",
-    image: "https://example.com/kachina.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Kachina.png",
     altText: "Kachina, the Spirit of the Waters"
   },
 
@@ -774,7 +774,7 @@ const genshinCharacters = [
     weapon: "Sword",
     type: "DPS",
     tier: "S",
-    image: "https://example.com/arlecchino.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Arlecchino.png",
     altText: "Arlecchino, the Harlequin of Snezhnaya"
   },
   {
@@ -785,7 +785,7 @@ const genshinCharacters = [
     weapon: "Bow",
     type: "DPS",
     tier: "S",
-    image: "https://example.com/tartaglia.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Childe.png",
     altText: "Tartaglia (Childe), the 11th Fatui Harbinger"
   },
   {
@@ -796,7 +796,7 @@ const genshinCharacters = [
     weapon: "Catalyst",
     type: "DPS",
     tier: "S",
-    image: "https://example.com/wanderer.jpg",
+    image: "https://rerollcdn.com/GENSHIN/Characters/1/Wanderer.png",
     altText: "Wanderer, the Scaramouche"
   }
 ];

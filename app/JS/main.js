@@ -6,27 +6,26 @@ themeBtn();
 
 document.addEventListener("DOMContentLoaded", function () {
   const DOMSelectors = {
-    allList: document.querySelector("aalllist"),
-    pyroSorter: document.querySelector("apyrosorter"),
-    hydroSorter: document.querySelector("ahydrosorter"),
-    cryoSorter: document.querySelector("acryosorter"),
-    electroSorter: document.querySelector("aelectrosorter"),
-    dendroSorter: document.querySelector("adendrosorter"),
-    geoSorter: document.querySelector("ageosorter"),
-    anemoSorter: document.querySelector("aanemosorter"),
-    weaponSorter: document.querySelector("aweaponsorter"),
-    characterCont: document.querySelector("acharacter-cont"),
-    charactersList: document.querySelector("acharacters-list"),
+    allList: document.querySelector("#alllist"),
+    pyroSorter: document.querySelector("#pyrosorter"),
+    hydroSorter: document.querySelector("#hydrosorter"),
+    cryoSorter: document.querySelector("#cryosorter"),
+    electroSorter: document.querySelector("#electrosorter"),
+    dendroSorter: document.querySelector("#dendrosorter"),
+    geoSorter: document.querySelector("#geosorter"),
+    anemoSorter: document.querySelector("#anemosorter"),
+    charactersList: document.querySelector("#characters-list"),
   };
-  // Get the container where character cards will be inserted
-  const container = document.getElementById("characters-list");
 
-  function createCards(genshinCharacters) {
-    genshinCharacters.forEach((character) => {
+  const charactersListContainer = document.getElementById("characters-list");
+
+  function createCards(characters) {
+    charactersListContainer.innerHTML = "";
+    characters.forEach((character) => {
       const genshinHTML = `
-        <div class="character-item" data-name="${character.name}" data-element="${character.element}">
+        <div class="character-item">
           <h2>${character.name}</h2>
-          <img src="${character.image}" alt="${character.altText}" class="character-image" />
+          <img src="${character.image}" alt="${character.altText}"/>
           <p>Star: ${character.star}</p>
           <p>Banner: ${character.banner}</p>
           <p>Element: ${character.element}</p>
@@ -35,62 +34,62 @@ document.addEventListener("DOMContentLoaded", function () {
           <p>Tier: ${character.tier}</p>
         </div>
       `;
-      container.insertAdjacentHTML("beforeend", genshinHTML);
+      charactersListContainer.insertAdjacentHTML("beforeend", genshinHTML);
     });
   }
-  // Create cards first before initializing the filter
   createCards(genshinCharacters);
 
+  // Add event listeners to the filter buttons
   DOMSelectors.allList.addEventListener("click", () => {
     createCards(genshinCharacters);
   });
 
   DOMSelectors.pyroSorter.addEventListener("click", () => {
-    const pyro = genshinCharacters.filter(
+    const pyroCharacters = genshinCharacters.filter(
       (character) => character.element === "Pyro"
     );
-    createCards(pyro);
+    createCards(pyroCharacters);
   });
 
   DOMSelectors.hydroSorter.addEventListener("click", () => {
-    const hydro = genshinCharacters.filter(
+    const hydroCharacters = genshinCharacters.filter(
       (character) => character.element === "Hydro"
     );
-    createCards(hydro);
+    createCards(hydroCharacters);
   });
 
   DOMSelectors.cryoSorter.addEventListener("click", () => {
-    const cryo = genshinCharacters.filter(
+    const cryoCharacters = genshinCharacters.filter(
       (character) => character.element === "Cryo"
     );
-    createCards(cryo);
+    createCards(cryoCharacters);
   });
 
   DOMSelectors.electroSorter.addEventListener("click", () => {
-    const electro = genshinCharacters.filter(
+    const electroCharacters = genshinCharacters.filter(
       (character) => character.element === "Electro"
     );
-    createCards(electro);
+    createCards(electroCharacters);
   });
 
   DOMSelectors.dendroSorter.addEventListener("click", () => {
-    const dendro = genshinCharacters.filter(
+    const dendroCharacters = genshinCharacters.filter(
       (character) => character.element === "Dendro"
     );
-    createCards(dendro);
+    createCards(dendroCharacters);
   });
 
   DOMSelectors.geoSorter.addEventListener("click", () => {
-    const geo = genshinCharacters.filter(
+    const geoCharacters = genshinCharacters.filter(
       (character) => character.element === "Geo"
     );
-    createCards(geo);
+    createCards(geoCharacters);
   });
 
   DOMSelectors.anemoSorter.addEventListener("click", () => {
-    const anemo = genshinCharacters.filter(
+    const anemoCharacters = genshinCharacters.filter(
       (character) => character.element === "Anemo"
     );
-    createCards(anemo);
+    createCards(anemoCharacters);
   });
 });
