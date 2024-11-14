@@ -6,16 +6,10 @@
 
   /* Typography */
   --h1: 7.594rem;
-  --h2: 5.063rem;
-  --h3: 3.375rem;
-  --h4: 2.25rem;
-  --p: 1.563rem;
-
-  /* Dropdown Menu */
-  --dropdown-background: var(--accent-color);
-  --dropdown-border: #ccc;
-  --dropdown-padding: 0.5rem;
-  --dropdown-font-size: 1rem;
+  --h2: 3rem;
+  --h3: 2.5rem;
+  --h4: 2rem;
+  --p: 1rem;
 }
 
 .light {

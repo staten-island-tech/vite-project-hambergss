@@ -1,8 +1,5 @@
 import "../css/style.css";
 import { genshinCharacters } from "./genshin";
-import { themeBtn } from "./theme";
-
-themeBtn();
 
 document.addEventListener("DOMContentLoaded", function () {
   const DOMSelectors = {
@@ -25,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const genshinHTML = `
         <div class="character-item">
           <h2>${character.name}</h2>
-          <img src="${character.image}" alt="${character.altText}"/>
+          <img class="character-image" src="${character.image}" alt="${character.altText}"/>
           <p>Star: ${character.star}</p>
           <p>Banner: ${character.banner}</p>
           <p>Element: ${character.element}</p>

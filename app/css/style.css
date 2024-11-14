@@ -1,45 +1,61 @@
-@import url('var.css');
+@import url("var.css");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-/* Dropdown Menu Styling */
-.filter {
-  margin: 1.5rem auto;
-  text-align: center;
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Space between buttons */
+  justify-content: center;
+  padding: 40px; /* Increase padding for a larger container */
+  max-width: 800px; /* Optional: set max-width to keep layout manageable */
+  margin: 0 auto; /* Center the container */
 }
 
-.filter label {
-  font-size: var(--h4);
-  color: var(--secondary);
-  margin-right: 1rem;
+.main .btn,
+.main button {
+  padding: 15px 30px; /* Increase padding for larger button size */
+  font-size: 18px; /* Increase font size */
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 8px; /* Slightly rounder corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-#category-filter {
-  padding: var(--dropdown-padding);
-  font-size: var(--dropdown-font-size);
-  color: var(--text-color);
-  background-color: var(--dropdown-background);
-  border: 1px solid var(--dropdown-border);
-  border-radius: 5px;
-  outline: none;
+.main .btn:hover,
+.main button:hover {
+  background-color: #e0e0e0;
 }
 
-/* Button Hover Animation */
 .btn {
-  text-transform: uppercase;
+  outline: 0;
+  grid-gap: 8px;
+  align-items: center;
+  background: 0 0;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 16px;
+  gap: 8px;
+  justify-content: center;
+  line-height: 1.5;
+  overflow: hidden;
+  padding: 12px 16px;
   text-decoration: none;
-  padding: 1.5rem 4rem;
-  display: inline-block;
-  margin: 1rem auto;
-  font-size: var(--p);
-  border-radius: 7rem;
-  background-color: var(--secondary);
-  color: var(--primary);
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-overflow: ellipsis;
+  transition: all 0.14s ease-out;
+  white-space: nowrap;
 }
 
 .btn:hover {
-  background-color: var(--accent-color);
-  color: var(--text-color);
-  transform: scale(1.05);
+  box-shadow: 4px 4px 0 #000;
+  transform: translate(-4px, -4px);
+}
+
+.btn:focus-visible {
+  outline-offset: 1px;
 }
 
 #characters-list {
@@ -50,12 +66,12 @@
 
 /* Character Item Hover */
 .character-item {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   width: 30rem;
   height: 40rem;
-  margin: 1rem;
-  padding: 2rem;
+  margin: 2rem;
+  padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 8px;
   text-align: center;
@@ -67,6 +83,12 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.character-image {
+  align-self: center;
+  width: 40%;
+  height: 30%;
+}
+
 .character-item:hover {
   transform: scale(1.02);
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
@@ -74,6 +96,7 @@
 
 /* Title Fade-in Animation */
 .title {
+  font-family: "Bebas Neue", sans-serif;;
   font-size: var(--h1);
   color: var(--secondary);
   opacity: 0;
@@ -108,4 +131,9 @@ a::after {
 a:hover::after {
   width: 100%;
   left: 0;
+}
+
+h2 {
+  margin-top: 3%;
+  margin-bottom: 3%;
 }

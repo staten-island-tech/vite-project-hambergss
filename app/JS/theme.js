@@ -7,5 +7,3 @@ const themeBtn = document.querySelector(".btn").addEventListener("click", functi
         document.body.classList.remove("dark");
     }
 });
-
-export { themeBtn };
